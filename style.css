@@ -1,0 +1,47 @@
+body {
+    background-color: green;
+}
+
+.noir {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-image:  radial-gradient(farthest-corner at top right,white, black, black);
+    border-radius: 50%;
+    left: 20%;
+}
+
+.blanc {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.divombre{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    transform: translate(-50%,50%) rotateX(60deg);
+    background-color: rgba(0, 0, 0, 0.884);
+    box-shadow: 0px 0px 100px 65px;
+}
+
+.huit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+}
+h1{
+    transform: rotate(-45deg);
+    font-family:Arial, Helvetica, sans-serif;
+}
