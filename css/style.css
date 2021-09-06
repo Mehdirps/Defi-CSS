@@ -1,4 +1,4 @@
-.blanc, .huit {
+.noir .blanc, .noir .huit {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -19,7 +19,7 @@ body {
   left: 20%;
 }
 
-.blanc {
+.noir .blanc {
   background-color: white;
   width: 150px;
   height: 150px;
@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.divombre {
+.noir .divombre {
   position: absolute;
   top: 65%;
   right: 50%;
@@ -39,13 +39,14 @@ body {
   background-color: rgba(0, 0, 0, 0.884);
   -webkit-box-shadow: 0px 0px 100px 65px;
           box-shadow: 0px 0px 100px 65px;
+  z-index: -10;
 }
 
-.huit {
+.noir .huit {
   font-size: 5rem;
 }
 
-.huit h1 {
+.noir .huit h1 {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   font-family: Helvetica, sans-serif;
