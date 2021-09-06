@@ -1,0 +1,46 @@
+@import "variables";
+@import "functions";
+
+body {
+    background-color: $green;
+}
+
+.noir {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-image: radial-gradient(farthest-corner at top right,$white, $black, $black);
+    border-radius: 50%;
+    left: 20%;
+}
+
+.blanc {
+    background-color: $white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    @extend %centre;
+    text-align: center;
+}
+
+.divombre {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    transform: rotateX(60deg);
+    background-color: rgba(0, 0, 0, 0.884);
+    box-shadow: 0px 0px 100px 65px;
+}
+
+.huit {
+    @extend %centre;
+    font-size: 5rem;
+
+    h1 {
+        transform: rotate(-45deg);
+        font-family: Helvetica, sans-serif;
+    }
+}
