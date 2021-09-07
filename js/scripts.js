@@ -4,26 +4,27 @@ let ombre = document.querySelector(".divombre")
 let blancboule = document.querySelector(".blanc")
 let body = document.querySelector("body")
 let phrases = [
-    "Essaye plus tard",
+    "Tu veux un cable html ?",
     "Essaye encore",
-    "Pas d'avis",
+    "Comment vas-tu",
     "C'est ton destin",
-    "Le sort en est jeté",
+    "Je suis ton père",
     "Une chance sur deux",
     "Repose ta question",
-    "D'après moi ou",
+    "Avec ou sans patate ?",
     "C'est certain",
-    "Oui absolument",
+    "Rose saumon",
     "Tu peux compter dessus",
     "Sans aucun doute",
     "Très probable",
     "Oui",
     "C'est bien parti",
     "C'est non",
-    "Peu probable",
-    "Faut pas rêver",
+    "Jaune poussin",
+    "Vert pastèle",
     "N'y compte pas",
-    "Impossible"
+    "Impossible",
+    "Rouge ou Bleu ?"
 ]
 boule.addEventListener("click", function (event) {
     let touche;
@@ -55,11 +56,11 @@ boule.addEventListener("click", function (event) {
         boule.style.background= "radial-gradient(farthest-corner at top right," + color1 +"," + color2 + "," + color3 + "," + color4 +"," + color5 + "," + color6 + ")";
         let fontType = ["Arial", "Verdana", "Helvetica"];
         texte.style.fontFamily = Math.floor(Math.random(),fontType * 5);
-        body.style.background = "radial-gradient(farthest-corner at top right," + color1 +"," + color2 + "," + color3 + "," + color4 +"," + color5 + "," + color6 + ")";
+        body.style.background = "radial-gradient(farthest-corner at top right," + color6 +"," + color5 + "," + color4 + "," + color3 +"," + color2 + "," + color1 + ")";
         body.style.backgroundRepeat = "no-repeat";
-        body.style.backgroundSize= "cover";
+        body.style.height= "100vh";
     }
     let compteurdown = setInterval(() => {
         getChrono()
-    }, 400);
+    }, 2000);
 })

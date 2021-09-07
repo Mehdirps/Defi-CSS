@@ -2,9 +2,9 @@
 @import "functions";
 
 body {
+    margin: 0;
     background-color: $green;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 
@@ -40,10 +40,10 @@ body {
 
     .huit {
         @extend %centre;
-        font-size: 5rem;
-
+        
         h1 {
-            transform: rotate(-45deg);
+            font-size: 1rem;
+            // transform: rotate(-45deg);
             font-family: Helvetica, sans-serif;
         }
     }

@@ -7,7 +7,9 @@
 }
 
 body {
+  margin: 0;
   background-color: green;
+  height: 100vh;
 }
 
 .noir {
@@ -42,13 +44,8 @@ body {
   z-index: -10;
 }
 
-.noir .huit {
-  font-size: 5rem;
-}
-
 .noir .huit h1 {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  font-size: 1rem;
   font-family: Helvetica, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
