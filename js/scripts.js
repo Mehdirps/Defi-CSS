@@ -62,5 +62,5 @@ boule.addEventListener("click", function (event) {
     }
     let compteurdown = setInterval(() => {
         getChrono()
-    }, 2000);
+    }, 2500);
 })

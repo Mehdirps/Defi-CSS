@@ -1,0 +1,53 @@
+.noir .blanc, .noir .huit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: green;
+}
+
+.noir {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background-image: radial-gradient(farthest-corner at top right, white, black, black);
+  border-radius: 50%;
+  left: 20%;
+}
+
+.noir .blanc {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.noir .divombre {
+  position: absolute;
+  top: 65%;
+  right: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -webkit-transform: rotateX(60deg);
+          transform: rotateX(60deg);
+  background-color: rgba(0, 0, 0, 0.884);
+  -webkit-box-shadow: 0px 0px 100px 65px;
+          box-shadow: 0px 0px 100px 65px;
+}
+
+.noir .huit {
+  font-size: 5rem;
+}
+
+.noir .huit h1 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  font-family: Helvetica, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
